@@ -157,6 +157,15 @@ section {
 
 /* resume section styles */
 
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-container hr {
+    margin: 30px 0;
+}
+
 .resume-column-title {
     color: #474747;
     font-size: 30px;
@@ -167,12 +176,15 @@ section {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .item-institute {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .item-description {
@@ -180,4 +192,11 @@ section {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.download-cv {
+    text-align: center;
+    margin: 50px 0px;
 }
