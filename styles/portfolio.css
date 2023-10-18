@@ -200,3 +200,13 @@ section {
     text-align: center;
     margin: 50px 0px;
 }
+
+/* footer styles */
+
+.footer-container {
+    background: #FFF8F3;
+    display: flex;
+    gap: 115px;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
